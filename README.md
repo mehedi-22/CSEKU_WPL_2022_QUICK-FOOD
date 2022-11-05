@@ -1,2 +1,2 @@
 # Quick-Food
-3.2 WPL project (Group Project)
+3-2 Term WPL project (Group Project)
