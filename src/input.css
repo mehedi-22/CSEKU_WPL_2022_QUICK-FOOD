@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cardLayout {
+  display: flex;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 21px;
+}
+.card {
+  background: #fffdfd;
+  /* Gray 4 */
+
+  border: 1px solid #bdbdbd;
+  box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 180px 180px 30px 30px;
+}
+
+.comntClass {
+  background: red;
+}
+.game {
+  background: purple;
+}

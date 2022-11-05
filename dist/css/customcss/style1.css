@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-spacing: 0px;
+}
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 0.7rem;
+  width: 30%;
+  margin: 0.5rem;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  background:#d5d5d9;
+  color: white;
+  text-align: center;
+}
+.btnn {
+  width: 81%;
+  display: inline-flex;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background: rgb(200 198 198);
+  color: white;
+  text-align: center;
+}
+
+.btn:hover {
+  background: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.form_control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34vh;
+}
+
+.form_control form {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: rgb(245, 241, 241);
+}
+.form_control.search form {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.form_control form h3 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form_control form .box {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  background: white;
+  text-transform: none;
+  border: 1px solid #d1d1d1;
+}
+
+.table_container {
+  margin: 2rem 0;
+}
+
+.table_container .td {
+  width: 100%;
+  text-align: center;
+}
+
+.table_container .td thead {
+  background: #128c7e;
+}
+
+.table_container .td th {
+  color: white;
+  font-size: 2rem;
+  padding: 19px;
+}
+
+
+.btnnn {
+  color: white;
+  background-color: rgb(247, 68, 68);
+}
+.table_container .td td {
+  padding: 1rem;
+  font-size: 17px;
+  border: 0.1rem solid rgba(203, 200, 200, 0.799);
+  color: #626060ec;
+  font-size: 17px;
+  text-align: left;
+  padding: 14px;
+  padding-left: 13px;
+  
+
+}
+.table_container .td .btn:last-child {
+  background: crimson;
+}
+
+/*
+.product-display .product-display-table .btn:first-child {
+  margin-top: 0;
+}
+
+.product-display .product-display-table .btn:last-child {
+  background: crimson;
+}
+
+.product-display .product-display-table .btn:last-child:hover {
+  background: var(--bg-color);
+}
+*/
